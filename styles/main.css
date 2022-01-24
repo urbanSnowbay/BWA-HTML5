@@ -1,0 +1,75 @@
+/*install fonts*/
+@font-face {
+    font-family: Righteous;
+    src: url('../fonts/Righteous-Regular.ttf');
+}
+
+@font-face {
+    font-family: carterOne;
+    src: url('../fonts/CarterOne-Regular.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+}
+
+.fitur {
+    background-color: aqua;
+}
+
+.header {
+    background-color: #b1b1b1;
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    background: linear-gradient(to bottom, rgb(41, 64, 168), rgb(20, 58, 80));
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: Righteous;
+    color: white;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .navigation li{
+    margin-left: 20px;
+    float: right;
+    font-size: 17px;
+    display: block;
+}
+
+.header .navigation li a{
+    text-decoration: none;
+    color: white;
+    font-family: carterOne;
+}
+
+.header .navigation li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.icon-kelas {
+    width: 250px;
+    height: 250px;
+    background-image: url('../images/pemandangan.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.parent {
+    margin-top: 100px;
+}
